@@ -7,34 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4539ABD81D51323A00D0ADE3 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABD71D51323A00D0ADE3 /* Moment.swift */; };
-		4539ABF71D51330100D0ADE3 /* ArrayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDA1D51330000D0ADE3 /* ArrayFile.swift */; };
-		4539ABF81D51330100D0ADE3 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDB1D51330000D0ADE3 /* DataFile.swift */; };
-		4539ABF91D51330100D0ADE3 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDC1D51330000D0ADE3 /* DataType.swift */; };
-		4539ABFA1D51330100D0ADE3 /* DictionaryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDD1D51330000D0ADE3 /* DictionaryFile.swift */; };
-		4539ABFB1D51330100D0ADE3 /* DirectoryEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDE1D51330000D0ADE3 /* DirectoryEnumerator.swift */; };
-		4539ABFC1D51330100D0ADE3 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABDF1D51330000D0ADE3 /* DispatchEvent.swift */; };
-		4539ABFD1D51330100D0ADE3 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE01D51330000D0ADE3 /* DispatchWatcher.swift */; };
-		4539ABFE1D51330100D0ADE3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE11D51330000D0ADE3 /* File.swift */; };
-		4539AC001D51330100D0ADE3 /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE31D51330000D0ADE3 /* FileKitError.swift */; };
-		4539AC011D51330100D0ADE3 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE41D51330000D0ADE3 /* FilePermissions.swift */; };
-		4539AC021D51330100D0ADE3 /* FileProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE51D51330000D0ADE3 /* FileProtection.swift */; };
-		4539AC031D51330100D0ADE3 /* FileSystemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE61D51330000D0ADE3 /* FileSystemEvent.swift */; };
-		4539AC041D51330100D0ADE3 /* FileSystemEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE71D51330000D0ADE3 /* FileSystemEventStream.swift */; };
-		4539AC051D51330100D0ADE3 /* FileSystemWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE81D51330000D0ADE3 /* FileSystemWatcher.swift */; };
-		4539AC061D51330100D0ADE3 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABE91D51330000D0ADE3 /* FileType.swift */; };
-		4539AC071D51330100D0ADE3 /* Image+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABEA1D51330000D0ADE3 /* Image+FileKit.swift */; };
-		4539AC081D51330100D0ADE3 /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABEB1D51330000D0ADE3 /* ImageFile.swift */; };
-		4539AC091D51330100D0ADE3 /* NSArray+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABEC1D51330000D0ADE3 /* NSArray+FileKit.swift */; };
-		4539AC0A1D51330100D0ADE3 /* NSBundle+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABED1D51330100D0ADE3 /* NSBundle+FileKit.swift */; };
-		4539AC0B1D51330100D0ADE3 /* NSData+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABEE1D51330100D0ADE3 /* NSData+FileKit.swift */; };
-		4539AC0C1D51330100D0ADE3 /* NSDictionary+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABEF1D51330100D0ADE3 /* NSDictionary+FileKit.swift */; };
-		4539AC0D1D51330100D0ADE3 /* NSString+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF01D51330100D0ADE3 /* NSString+FileKit.swift */; };
-		4539AC0E1D51330100D0ADE3 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF11D51330100D0ADE3 /* Operators.swift */; };
-		4539AC0F1D51330100D0ADE3 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF21D51330100D0ADE3 /* Path.swift */; };
-		4539AC101D51330100D0ADE3 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF31D51330100D0ADE3 /* Process+FileKit.swift */; };
-		4539AC111D51330100D0ADE3 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF41D51330100D0ADE3 /* RelativePathType.swift */; };
-		4539AC121D51330100D0ADE3 /* String+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ABF51D51330100D0ADE3 /* String+FileKit.swift */; };
+		4539AC201D5134B400D0ADE3 /* Bloom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC151D5134B400D0ADE3 /* Bloom.swift */; };
+		4539AC211D5134B400D0ADE3 /* EnumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC161D5134B400D0ADE3 /* EnumModel.swift */; };
+		4539AC221D5134B400D0ADE3 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC171D5134B400D0ADE3 /* Graph.swift */; };
+		4539AC231D5134B400D0ADE3 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC181D5134B400D0ADE3 /* HashTable.swift */; };
+		4539AC241D5134B400D0ADE3 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC191D5134B400D0ADE3 /* LinkedList.swift */; };
+		4539AC251D5134B400D0ADE3 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1A1D5134B400D0ADE3 /* Math.swift */; };
+		4539AC261D5134B400D0ADE3 /* PathHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1B1D5134B400D0ADE3 /* PathHeap.swift */; };
+		4539AC271D5134B400D0ADE3 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1C1D5134B400D0ADE3 /* Queue.swift */; };
+		4539AC281D5134B400D0ADE3 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1D1D5134B400D0ADE3 /* Sorting.swift */; };
+		4539AC291D5134B400D0ADE3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1E1D5134B400D0ADE3 /* Stack.swift */; };
+		4539AC2A1D5134B400D0ADE3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC1F1D5134B400D0ADE3 /* Trie.swift */; };
+		4539AC351D5134C600D0ADE3 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC2B1D5134C600D0ADE3 /* Algorithm.swift */; };
+		4539AC361D5134C600D0ADE3 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC2C1D5134C600D0ADE3 /* AVLTree.swift */; };
+		4539AC371D5134C600D0ADE3 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC2D1D5134C600D0ADE3 /* Edge.swift */; };
+		4539AC381D5134C600D0ADE3 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC2E1D5134C600D0ADE3 /* extensions.swift */; };
+		4539AC391D5134C600D0ADE3 /* HashNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC2F1D5134C600D0ADE3 /* HashNode.swift */; };
+		4539AC3A1D5134C600D0ADE3 /* LLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC301D5134C600D0ADE3 /* LLNode.swift */; };
+		4539AC3B1D5134C600D0ADE3 /* PathDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC311D5134C600D0ADE3 /* PathDS.swift */; };
+		4539AC3C1D5134C600D0ADE3 /* QNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC321D5134C600D0ADE3 /* QNode.swift */; };
+		4539AC3D1D5134C600D0ADE3 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC331D5134C600D0ADE3 /* TrieNode.swift */; };
+		4539AC3E1D5134C600D0ADE3 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC341D5134C600D0ADE3 /* Vertex.swift */; };
+		4539AC431D51365E00D0ADE3 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC421D51365E00D0ADE3 /* Moment.swift */; };
+		4539AC5F1D51368500D0ADE3 /* ArrayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC441D51368500D0ADE3 /* ArrayFile.swift */; };
+		4539AC601D51368500D0ADE3 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC451D51368500D0ADE3 /* DataFile.swift */; };
+		4539AC611D51368500D0ADE3 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC461D51368500D0ADE3 /* DataType.swift */; };
+		4539AC621D51368500D0ADE3 /* DictionaryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC471D51368500D0ADE3 /* DictionaryFile.swift */; };
+		4539AC631D51368500D0ADE3 /* DirectoryEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC481D51368500D0ADE3 /* DirectoryEnumerator.swift */; };
+		4539AC641D51368500D0ADE3 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC491D51368500D0ADE3 /* DispatchEvent.swift */; };
+		4539AC651D51368500D0ADE3 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4A1D51368500D0ADE3 /* DispatchWatcher.swift */; };
+		4539AC661D51368500D0ADE3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4B1D51368500D0ADE3 /* File.swift */; };
+		4539AC671D51368500D0ADE3 /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4C1D51368500D0ADE3 /* FileKitError.swift */; };
+		4539AC681D51368500D0ADE3 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4D1D51368500D0ADE3 /* FilePermissions.swift */; };
+		4539AC691D51368500D0ADE3 /* FileProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4E1D51368500D0ADE3 /* FileProtection.swift */; };
+		4539AC6A1D51368500D0ADE3 /* FileSystemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC4F1D51368500D0ADE3 /* FileSystemEvent.swift */; };
+		4539AC6B1D51368500D0ADE3 /* FileSystemEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC501D51368500D0ADE3 /* FileSystemEventStream.swift */; };
+		4539AC6C1D51368500D0ADE3 /* FileSystemWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC511D51368500D0ADE3 /* FileSystemWatcher.swift */; };
+		4539AC6D1D51368500D0ADE3 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC521D51368500D0ADE3 /* FileType.swift */; };
+		4539AC6E1D51368500D0ADE3 /* Image+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC531D51368500D0ADE3 /* Image+FileKit.swift */; };
+		4539AC6F1D51368500D0ADE3 /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC541D51368500D0ADE3 /* ImageFile.swift */; };
+		4539AC701D51368500D0ADE3 /* NSArray+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC551D51368500D0ADE3 /* NSArray+FileKit.swift */; };
+		4539AC711D51368500D0ADE3 /* NSBundle+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC561D51368500D0ADE3 /* NSBundle+FileKit.swift */; };
+		4539AC721D51368500D0ADE3 /* NSData+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC571D51368500D0ADE3 /* NSData+FileKit.swift */; };
+		4539AC731D51368500D0ADE3 /* NSDictionary+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC581D51368500D0ADE3 /* NSDictionary+FileKit.swift */; };
+		4539AC741D51368500D0ADE3 /* NSString+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC591D51368500D0ADE3 /* NSString+FileKit.swift */; };
+		4539AC751D51368500D0ADE3 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5A1D51368500D0ADE3 /* Operators.swift */; };
+		4539AC761D51368500D0ADE3 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5B1D51368500D0ADE3 /* Path.swift */; };
+		4539AC771D51368500D0ADE3 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5C1D51368500D0ADE3 /* Process+FileKit.swift */; };
+		4539AC781D51368500D0ADE3 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5D1D51368500D0ADE3 /* RelativePathType.swift */; };
+		4539AC791D51368500D0ADE3 /* String+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5E1D51368500D0ADE3 /* String+FileKit.swift */; };
+		4539AC7B1D51368D00D0ADE3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC7A1D51368D00D0ADE3 /* SwiftyJSON.swift */; };
 		456F33C51D51228D003BBD95 /* MomentFromNow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */; };
 		45AFB8191D50FD250059BFEC /* SwiftCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AFB8181D50FD250059BFEC /* SwiftCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45AFB8201D50FD250059BFEC /* SwiftCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFB8151D50FD250059BFEC /* SwiftCommon.framework */; };
@@ -52,34 +74,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4539ABD71D51323A00D0ADE3 /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
-		4539ABDA1D51330000D0ADE3 /* ArrayFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayFile.swift; sourceTree = "<group>"; };
-		4539ABDB1D51330000D0ADE3 /* DataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
-		4539ABDC1D51330000D0ADE3 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
-		4539ABDD1D51330000D0ADE3 /* DictionaryFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryFile.swift; sourceTree = "<group>"; };
-		4539ABDE1D51330000D0ADE3 /* DirectoryEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryEnumerator.swift; sourceTree = "<group>"; };
-		4539ABDF1D51330000D0ADE3 /* DispatchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchEvent.swift; sourceTree = "<group>"; };
-		4539ABE01D51330000D0ADE3 /* DispatchWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchWatcher.swift; sourceTree = "<group>"; };
-		4539ABE11D51330000D0ADE3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		4539ABE31D51330000D0ADE3 /* FileKitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileKitError.swift; sourceTree = "<group>"; };
-		4539ABE41D51330000D0ADE3 /* FilePermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePermissions.swift; sourceTree = "<group>"; };
-		4539ABE51D51330000D0ADE3 /* FileProtection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileProtection.swift; sourceTree = "<group>"; };
-		4539ABE61D51330000D0ADE3 /* FileSystemEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEvent.swift; sourceTree = "<group>"; };
-		4539ABE71D51330000D0ADE3 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEventStream.swift; sourceTree = "<group>"; };
-		4539ABE81D51330000D0ADE3 /* FileSystemWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemWatcher.swift; sourceTree = "<group>"; };
-		4539ABE91D51330000D0ADE3 /* FileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
-		4539ABEA1D51330000D0ADE3 /* Image+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABEB1D51330000D0ADE3 /* ImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFile.swift; sourceTree = "<group>"; };
-		4539ABEC1D51330000D0ADE3 /* NSArray+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABED1D51330100D0ADE3 /* NSBundle+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABEE1D51330100D0ADE3 /* NSData+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABEF1D51330100D0ADE3 /* NSDictionary+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABF01D51330100D0ADE3 /* NSString+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABF11D51330100D0ADE3 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		4539ABF21D51330100D0ADE3 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
-		4539ABF31D51330100D0ADE3 /* Process+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Process+FileKit.swift"; sourceTree = "<group>"; };
-		4539ABF41D51330100D0ADE3 /* RelativePathType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativePathType.swift; sourceTree = "<group>"; };
-		4539ABF51D51330100D0ADE3 /* String+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC151D5134B400D0ADE3 /* Bloom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bloom.swift; path = DST/Factories/Bloom.swift; sourceTree = "<group>"; };
+		4539AC161D5134B400D0ADE3 /* EnumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnumModel.swift; path = DST/Factories/EnumModel.swift; sourceTree = "<group>"; };
+		4539AC171D5134B400D0ADE3 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = DST/Factories/Graph.swift; sourceTree = "<group>"; };
+		4539AC181D5134B400D0ADE3 /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HashTable.swift; path = DST/Factories/HashTable.swift; sourceTree = "<group>"; };
+		4539AC191D5134B400D0ADE3 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = DST/Factories/LinkedList.swift; sourceTree = "<group>"; };
+		4539AC1A1D5134B400D0ADE3 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Math.swift; path = DST/Factories/Math.swift; sourceTree = "<group>"; };
+		4539AC1B1D5134B400D0ADE3 /* PathHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathHeap.swift; path = DST/Factories/PathHeap.swift; sourceTree = "<group>"; };
+		4539AC1C1D5134B400D0ADE3 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = DST/Factories/Queue.swift; sourceTree = "<group>"; };
+		4539AC1D1D5134B400D0ADE3 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sorting.swift; path = DST/Factories/Sorting.swift; sourceTree = "<group>"; };
+		4539AC1E1D5134B400D0ADE3 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = DST/Factories/Stack.swift; sourceTree = "<group>"; };
+		4539AC1F1D5134B400D0ADE3 /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trie.swift; path = DST/Factories/Trie.swift; sourceTree = "<group>"; };
+		4539AC2B1D5134C600D0ADE3 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = DST/Structures/Algorithm.swift; sourceTree = "<group>"; };
+		4539AC2C1D5134C600D0ADE3 /* AVLTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVLTree.swift; path = DST/Structures/AVLTree.swift; sourceTree = "<group>"; };
+		4539AC2D1D5134C600D0ADE3 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = DST/Structures/Edge.swift; sourceTree = "<group>"; };
+		4539AC2E1D5134C600D0ADE3 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = DST/Structures/extensions.swift; sourceTree = "<group>"; };
+		4539AC2F1D5134C600D0ADE3 /* HashNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HashNode.swift; path = DST/Structures/HashNode.swift; sourceTree = "<group>"; };
+		4539AC301D5134C600D0ADE3 /* LLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LLNode.swift; path = DST/Structures/LLNode.swift; sourceTree = "<group>"; };
+		4539AC311D5134C600D0ADE3 /* PathDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathDS.swift; path = DST/Structures/PathDS.swift; sourceTree = "<group>"; };
+		4539AC321D5134C600D0ADE3 /* QNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QNode.swift; path = DST/Structures/QNode.swift; sourceTree = "<group>"; };
+		4539AC331D5134C600D0ADE3 /* TrieNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrieNode.swift; path = DST/Structures/TrieNode.swift; sourceTree = "<group>"; };
+		4539AC341D5134C600D0ADE3 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = DST/Structures/Vertex.swift; sourceTree = "<group>"; };
+		4539AC421D51365E00D0ADE3 /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Moment.swift; path = Moment/Moment.swift; sourceTree = "<group>"; };
+		4539AC441D51368500D0ADE3 /* ArrayFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayFile.swift; path = File/ArrayFile.swift; sourceTree = "<group>"; };
+		4539AC451D51368500D0ADE3 /* DataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataFile.swift; path = File/DataFile.swift; sourceTree = "<group>"; };
+		4539AC461D51368500D0ADE3 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = File/DataType.swift; sourceTree = "<group>"; };
+		4539AC471D51368500D0ADE3 /* DictionaryFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryFile.swift; path = File/DictionaryFile.swift; sourceTree = "<group>"; };
+		4539AC481D51368500D0ADE3 /* DirectoryEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DirectoryEnumerator.swift; path = File/DirectoryEnumerator.swift; sourceTree = "<group>"; };
+		4539AC491D51368500D0ADE3 /* DispatchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatchEvent.swift; path = File/DispatchEvent.swift; sourceTree = "<group>"; };
+		4539AC4A1D51368500D0ADE3 /* DispatchWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatchWatcher.swift; path = File/DispatchWatcher.swift; sourceTree = "<group>"; };
+		4539AC4B1D51368500D0ADE3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = File/File.swift; sourceTree = "<group>"; };
+		4539AC4C1D51368500D0ADE3 /* FileKitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileKitError.swift; path = File/FileKitError.swift; sourceTree = "<group>"; };
+		4539AC4D1D51368500D0ADE3 /* FilePermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilePermissions.swift; path = File/FilePermissions.swift; sourceTree = "<group>"; };
+		4539AC4E1D51368500D0ADE3 /* FileProtection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileProtection.swift; path = File/FileProtection.swift; sourceTree = "<group>"; };
+		4539AC4F1D51368500D0ADE3 /* FileSystemEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemEvent.swift; path = File/FileSystemEvent.swift; sourceTree = "<group>"; };
+		4539AC501D51368500D0ADE3 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemEventStream.swift; path = File/FileSystemEventStream.swift; sourceTree = "<group>"; };
+		4539AC511D51368500D0ADE3 /* FileSystemWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemWatcher.swift; path = File/FileSystemWatcher.swift; sourceTree = "<group>"; };
+		4539AC521D51368500D0ADE3 /* FileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = File/FileType.swift; sourceTree = "<group>"; };
+		4539AC531D51368500D0ADE3 /* Image+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+FileKit.swift"; path = "File/Image+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC541D51368500D0ADE3 /* ImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageFile.swift; path = File/ImageFile.swift; sourceTree = "<group>"; };
+		4539AC551D51368500D0ADE3 /* NSArray+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSArray+FileKit.swift"; path = "File/NSArray+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC561D51368500D0ADE3 /* NSBundle+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSBundle+FileKit.swift"; path = "File/NSBundle+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC571D51368500D0ADE3 /* NSData+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+FileKit.swift"; path = "File/NSData+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC581D51368500D0ADE3 /* NSDictionary+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDictionary+FileKit.swift"; path = "File/NSDictionary+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC591D51368500D0ADE3 /* NSString+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+FileKit.swift"; path = "File/NSString+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC5A1D51368500D0ADE3 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = File/Operators.swift; sourceTree = "<group>"; };
+		4539AC5B1D51368500D0ADE3 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Path.swift; path = File/Path.swift; sourceTree = "<group>"; };
+		4539AC5C1D51368500D0ADE3 /* Process+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Process+FileKit.swift"; path = "File/Process+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC5D1D51368500D0ADE3 /* RelativePathType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelativePathType.swift; path = File/RelativePathType.swift; sourceTree = "<group>"; };
+		4539AC5E1D51368500D0ADE3 /* String+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+FileKit.swift"; path = "File/String+FileKit.swift"; sourceTree = "<group>"; };
+		4539AC7A1D51368D00D0ADE3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = JSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = "../../../../Downloads/SwiftMoment-master/SwiftMoment/SwiftMoment/MomentFromNow.bundle"; sourceTree = "<group>"; };
 		45AFB8151D50FD250059BFEC /* SwiftCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFB8181D50FD250059BFEC /* SwiftCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCommon.h; sourceTree = "<group>"; };
@@ -111,42 +155,78 @@
 		4539ABD91D5132E700D0ADE3 /* FileIO */ = {
 			isa = PBXGroup;
 			children = (
-				4539ABDA1D51330000D0ADE3 /* ArrayFile.swift */,
-				4539ABDB1D51330000D0ADE3 /* DataFile.swift */,
-				4539ABDC1D51330000D0ADE3 /* DataType.swift */,
-				4539ABDD1D51330000D0ADE3 /* DictionaryFile.swift */,
-				4539ABDE1D51330000D0ADE3 /* DirectoryEnumerator.swift */,
-				4539ABDF1D51330000D0ADE3 /* DispatchEvent.swift */,
-				4539ABE01D51330000D0ADE3 /* DispatchWatcher.swift */,
-				4539ABE11D51330000D0ADE3 /* File.swift */,
-				4539ABE31D51330000D0ADE3 /* FileKitError.swift */,
-				4539ABE41D51330000D0ADE3 /* FilePermissions.swift */,
-				4539ABE51D51330000D0ADE3 /* FileProtection.swift */,
-				4539ABE61D51330000D0ADE3 /* FileSystemEvent.swift */,
-				4539ABE71D51330000D0ADE3 /* FileSystemEventStream.swift */,
-				4539ABE81D51330000D0ADE3 /* FileSystemWatcher.swift */,
-				4539ABE91D51330000D0ADE3 /* FileType.swift */,
-				4539ABEA1D51330000D0ADE3 /* Image+FileKit.swift */,
-				4539ABEB1D51330000D0ADE3 /* ImageFile.swift */,
-				4539ABEC1D51330000D0ADE3 /* NSArray+FileKit.swift */,
-				4539ABED1D51330100D0ADE3 /* NSBundle+FileKit.swift */,
-				4539ABEE1D51330100D0ADE3 /* NSData+FileKit.swift */,
-				4539ABEF1D51330100D0ADE3 /* NSDictionary+FileKit.swift */,
-				4539ABF01D51330100D0ADE3 /* NSString+FileKit.swift */,
-				4539ABF11D51330100D0ADE3 /* Operators.swift */,
-				4539ABF21D51330100D0ADE3 /* Path.swift */,
-				4539ABF31D51330100D0ADE3 /* Process+FileKit.swift */,
-				4539ABF41D51330100D0ADE3 /* RelativePathType.swift */,
-				4539ABF51D51330100D0ADE3 /* String+FileKit.swift */,
+				4539AC441D51368500D0ADE3 /* ArrayFile.swift */,
+				4539AC451D51368500D0ADE3 /* DataFile.swift */,
+				4539AC461D51368500D0ADE3 /* DataType.swift */,
+				4539AC471D51368500D0ADE3 /* DictionaryFile.swift */,
+				4539AC481D51368500D0ADE3 /* DirectoryEnumerator.swift */,
+				4539AC491D51368500D0ADE3 /* DispatchEvent.swift */,
+				4539AC4A1D51368500D0ADE3 /* DispatchWatcher.swift */,
+				4539AC4B1D51368500D0ADE3 /* File.swift */,
+				4539AC4C1D51368500D0ADE3 /* FileKitError.swift */,
+				4539AC4D1D51368500D0ADE3 /* FilePermissions.swift */,
+				4539AC4E1D51368500D0ADE3 /* FileProtection.swift */,
+				4539AC4F1D51368500D0ADE3 /* FileSystemEvent.swift */,
+				4539AC501D51368500D0ADE3 /* FileSystemEventStream.swift */,
+				4539AC511D51368500D0ADE3 /* FileSystemWatcher.swift */,
+				4539AC521D51368500D0ADE3 /* FileType.swift */,
+				4539AC531D51368500D0ADE3 /* Image+FileKit.swift */,
+				4539AC541D51368500D0ADE3 /* ImageFile.swift */,
+				4539AC551D51368500D0ADE3 /* NSArray+FileKit.swift */,
+				4539AC561D51368500D0ADE3 /* NSBundle+FileKit.swift */,
+				4539AC571D51368500D0ADE3 /* NSData+FileKit.swift */,
+				4539AC581D51368500D0ADE3 /* NSDictionary+FileKit.swift */,
+				4539AC591D51368500D0ADE3 /* NSString+FileKit.swift */,
+				4539AC5A1D51368500D0ADE3 /* Operators.swift */,
+				4539AC5B1D51368500D0ADE3 /* Path.swift */,
+				4539AC5C1D51368500D0ADE3 /* Process+FileKit.swift */,
+				4539AC5D1D51368500D0ADE3 /* RelativePathType.swift */,
+				4539AC5E1D51368500D0ADE3 /* String+FileKit.swift */,
 			);
 			name = FileIO;
+			sourceTree = "<group>";
+		};
+		4539AC141D51346800D0ADE3 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				4539AC2B1D5134C600D0ADE3 /* Algorithm.swift */,
+				4539AC2C1D5134C600D0ADE3 /* AVLTree.swift */,
+				4539AC2D1D5134C600D0ADE3 /* Edge.swift */,
+				4539AC2E1D5134C600D0ADE3 /* extensions.swift */,
+				4539AC2F1D5134C600D0ADE3 /* HashNode.swift */,
+				4539AC301D5134C600D0ADE3 /* LLNode.swift */,
+				4539AC311D5134C600D0ADE3 /* PathDS.swift */,
+				4539AC321D5134C600D0ADE3 /* QNode.swift */,
+				4539AC331D5134C600D0ADE3 /* TrieNode.swift */,
+				4539AC341D5134C600D0ADE3 /* Vertex.swift */,
+				4539AC151D5134B400D0ADE3 /* Bloom.swift */,
+				4539AC161D5134B400D0ADE3 /* EnumModel.swift */,
+				4539AC171D5134B400D0ADE3 /* Graph.swift */,
+				4539AC181D5134B400D0ADE3 /* HashTable.swift */,
+				4539AC191D5134B400D0ADE3 /* LinkedList.swift */,
+				4539AC1A1D5134B400D0ADE3 /* Math.swift */,
+				4539AC1B1D5134B400D0ADE3 /* PathHeap.swift */,
+				4539AC1C1D5134B400D0ADE3 /* Queue.swift */,
+				4539AC1D1D5134B400D0ADE3 /* Sorting.swift */,
+				4539AC1E1D5134B400D0ADE3 /* Stack.swift */,
+				4539AC1F1D5134B400D0ADE3 /* Trie.swift */,
+			);
+			name = DataStructure;
+			sourceTree = "<group>";
+		};
+		4539AC3F1D5135E300D0ADE3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4539AC7A1D51368D00D0ADE3 /* SwiftyJSON.swift */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 		456F33B71D50FFFA003BBD95 /* Moment */ = {
 			isa = PBXGroup;
 			children = (
 				456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */,
-				4539ABD71D51323A00D0ADE3 /* Moment.swift */,
+				4539AC421D51365E00D0ADE3 /* Moment.swift */,
 			);
 			name = Moment;
 			sourceTree = "<group>";
@@ -172,6 +252,8 @@
 		45AFB8171D50FD250059BFEC /* SwiftCommon */ = {
 			isa = PBXGroup;
 			children = (
+				4539AC3F1D5135E300D0ADE3 /* JSON */,
+				4539AC141D51346800D0ADE3 /* DataStructure */,
 				4539ABD91D5132E700D0ADE3 /* FileIO */,
 				456F33B71D50FFFA003BBD95 /* Moment */,
 				45AFB8181D50FD250059BFEC /* SwiftCommon.h */,
@@ -298,34 +380,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4539ABFA1D51330100D0ADE3 /* DictionaryFile.swift in Sources */,
-				4539ABF81D51330100D0ADE3 /* DataFile.swift in Sources */,
-				4539ABF91D51330100D0ADE3 /* DataType.swift in Sources */,
-				4539AC031D51330100D0ADE3 /* FileSystemEvent.swift in Sources */,
-				4539AC041D51330100D0ADE3 /* FileSystemEventStream.swift in Sources */,
-				4539AC051D51330100D0ADE3 /* FileSystemWatcher.swift in Sources */,
-				4539AC0A1D51330100D0ADE3 /* NSBundle+FileKit.swift in Sources */,
-				4539ABFB1D51330100D0ADE3 /* DirectoryEnumerator.swift in Sources */,
-				4539AC011D51330100D0ADE3 /* FilePermissions.swift in Sources */,
-				4539AC001D51330100D0ADE3 /* FileKitError.swift in Sources */,
-				4539AC0F1D51330100D0ADE3 /* Path.swift in Sources */,
-				4539AC021D51330100D0ADE3 /* FileProtection.swift in Sources */,
-				4539AC111D51330100D0ADE3 /* RelativePathType.swift in Sources */,
-				4539AC081D51330100D0ADE3 /* ImageFile.swift in Sources */,
-				4539AC0D1D51330100D0ADE3 /* NSString+FileKit.swift in Sources */,
-				4539AC0C1D51330100D0ADE3 /* NSDictionary+FileKit.swift in Sources */,
-				4539ABFC1D51330100D0ADE3 /* DispatchEvent.swift in Sources */,
-				4539ABD81D51323A00D0ADE3 /* Moment.swift in Sources */,
-				4539AC0E1D51330100D0ADE3 /* Operators.swift in Sources */,
-				4539ABFD1D51330100D0ADE3 /* DispatchWatcher.swift in Sources */,
-				4539AC101D51330100D0ADE3 /* Process+FileKit.swift in Sources */,
-				4539AC121D51330100D0ADE3 /* String+FileKit.swift in Sources */,
-				4539AC061D51330100D0ADE3 /* FileType.swift in Sources */,
-				4539AC091D51330100D0ADE3 /* NSArray+FileKit.swift in Sources */,
-				4539ABFE1D51330100D0ADE3 /* File.swift in Sources */,
-				4539AC0B1D51330100D0ADE3 /* NSData+FileKit.swift in Sources */,
-				4539AC071D51330100D0ADE3 /* Image+FileKit.swift in Sources */,
-				4539ABF71D51330100D0ADE3 /* ArrayFile.swift in Sources */,
+				4539AC371D5134C600D0ADE3 /* Edge.swift in Sources */,
+				4539AC791D51368500D0ADE3 /* String+FileKit.swift in Sources */,
+				4539AC6A1D51368500D0ADE3 /* FileSystemEvent.swift in Sources */,
+				4539AC211D5134B400D0ADE3 /* EnumModel.swift in Sources */,
+				4539AC221D5134B400D0ADE3 /* Graph.swift in Sources */,
+				4539AC731D51368500D0ADE3 /* NSDictionary+FileKit.swift in Sources */,
+				4539AC771D51368500D0ADE3 /* Process+FileKit.swift in Sources */,
+				4539AC601D51368500D0ADE3 /* DataFile.swift in Sources */,
+				4539AC641D51368500D0ADE3 /* DispatchEvent.swift in Sources */,
+				4539AC271D5134B400D0ADE3 /* Queue.swift in Sources */,
+				4539AC351D5134C600D0ADE3 /* Algorithm.swift in Sources */,
+				4539AC241D5134B400D0ADE3 /* LinkedList.swift in Sources */,
+				4539AC711D51368500D0ADE3 /* NSBundle+FileKit.swift in Sources */,
+				4539AC621D51368500D0ADE3 /* DictionaryFile.swift in Sources */,
+				4539AC741D51368500D0ADE3 /* NSString+FileKit.swift in Sources */,
+				4539AC6D1D51368500D0ADE3 /* FileType.swift in Sources */,
+				4539AC2A1D5134B400D0ADE3 /* Trie.swift in Sources */,
+				4539AC3E1D5134C600D0ADE3 /* Vertex.swift in Sources */,
+				4539AC651D51368500D0ADE3 /* DispatchWatcher.swift in Sources */,
+				4539AC681D51368500D0ADE3 /* FilePermissions.swift in Sources */,
+				4539AC3D1D5134C600D0ADE3 /* TrieNode.swift in Sources */,
+				4539AC691D51368500D0ADE3 /* FileProtection.swift in Sources */,
+				4539AC431D51365E00D0ADE3 /* Moment.swift in Sources */,
+				4539AC721D51368500D0ADE3 /* NSData+FileKit.swift in Sources */,
+				4539AC6C1D51368500D0ADE3 /* FileSystemWatcher.swift in Sources */,
+				4539AC5F1D51368500D0ADE3 /* ArrayFile.swift in Sources */,
+				4539AC761D51368500D0ADE3 /* Path.swift in Sources */,
+				4539AC3B1D5134C600D0ADE3 /* PathDS.swift in Sources */,
+				4539AC6B1D51368500D0ADE3 /* FileSystemEventStream.swift in Sources */,
+				4539AC751D51368500D0ADE3 /* Operators.swift in Sources */,
+				4539AC231D5134B400D0ADE3 /* HashTable.swift in Sources */,
+				4539AC631D51368500D0ADE3 /* DirectoryEnumerator.swift in Sources */,
+				4539AC201D5134B400D0ADE3 /* Bloom.swift in Sources */,
+				4539AC3A1D5134C600D0ADE3 /* LLNode.swift in Sources */,
+				4539AC671D51368500D0ADE3 /* FileKitError.swift in Sources */,
+				4539AC611D51368500D0ADE3 /* DataType.swift in Sources */,
+				4539AC251D5134B400D0ADE3 /* Math.swift in Sources */,
+				4539AC361D5134C600D0ADE3 /* AVLTree.swift in Sources */,
+				4539AC261D5134B400D0ADE3 /* PathHeap.swift in Sources */,
+				4539AC3C1D5134C600D0ADE3 /* QNode.swift in Sources */,
+				4539AC661D51368500D0ADE3 /* File.swift in Sources */,
+				4539AC6F1D51368500D0ADE3 /* ImageFile.swift in Sources */,
+				4539AC281D5134B400D0ADE3 /* Sorting.swift in Sources */,
+				4539AC7B1D51368D00D0ADE3 /* SwiftyJSON.swift in Sources */,
+				4539AC701D51368500D0ADE3 /* NSArray+FileKit.swift in Sources */,
+				4539AC381D5134C600D0ADE3 /* extensions.swift in Sources */,
+				4539AC781D51368500D0ADE3 /* RelativePathType.swift in Sources */,
+				4539AC291D5134B400D0ADE3 /* Stack.swift in Sources */,
+				4539AC6E1D51368500D0ADE3 /* Image+FileKit.swift in Sources */,
+				4539AC391D5134C600D0ADE3 /* HashNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
