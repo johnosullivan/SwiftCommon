@@ -67,6 +67,7 @@
 		4539ACD91D5142BD00D0ADE3 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCF1D5142BD00D0ADE3 /* Power.swift */; };
 		4539ACDB1D5142BD00D0ADE3 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACD11D5142BD00D0ADE3 /* Trigonometric.swift */; };
 		4539AD431D5183F300D0ADE3 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AD421D5183F300D0ADE3 /* SwiftNotice.swift */; };
+		4539AD8B1D51914500D0ADE3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AD8A1D51914500D0ADE3 /* Reachability.swift */; };
 		456F33C51D51228D003BBD95 /* MomentFromNow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */; };
 		45AFB8191D50FD250059BFEC /* SwiftCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AFB8181D50FD250059BFEC /* SwiftCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45AFB8201D50FD250059BFEC /* SwiftCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFB8151D50FD250059BFEC /* SwiftCommon.framework */; };
@@ -144,6 +145,7 @@
 		4539ACCF1D5142BD00D0ADE3 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Power.swift; path = MathHelp/Power.swift; sourceTree = "<group>"; };
 		4539ACD11D5142BD00D0ADE3 /* Trigonometric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = MathHelp/Trigonometric.swift; sourceTree = "<group>"; };
 		4539AD421D5183F300D0ADE3 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotice.swift; path = "../../../../Downloads/SwiftNotice-master/SwiftNotice.swift"; sourceTree = "<group>"; };
+		4539AD8A1D51914500D0ADE3 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = "../../../../Downloads/SwiftMoment-master/SwiftMoment/SwiftMoment/MomentFromNow.bundle"; sourceTree = "<group>"; };
 		45AFB8151D50FD250059BFEC /* SwiftCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFB8181D50FD250059BFEC /* SwiftCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCommon.h; sourceTree = "<group>"; };
@@ -273,6 +275,28 @@
 			name = AddressBook;
 			sourceTree = "<group>";
 		};
+		4539AD571D51874200D0ADE3 /* AlertUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AlertUI;
+			sourceTree = "<group>";
+		};
+		4539AD891D51912300D0ADE3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4539AD8A1D51914500D0ADE3 /* Reachability.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		454A24FA1D5193D60091CBA5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		456F33B71D50FFFA003BBD95 /* Moment */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +327,9 @@
 		45AFB8171D50FD250059BFEC /* SwiftCommon */ = {
 			isa = PBXGroup;
 			children = (
+				454A24FA1D5193D60091CBA5 /* Database */,
+				4539AD891D51912300D0ADE3 /* Network */,
+				4539AD571D51874200D0ADE3 /* AlertUI */,
 				4539AD441D51858E00D0ADE3 /* AddressBook */,
 				4539AD411D5183D700D0ADE3 /* Notice */,
 				4539ACC71D5142AE00D0ADE3 /* Math */,
@@ -452,6 +479,7 @@
 				4539AC241D5134B400D0ADE3 /* LinkedList.swift in Sources */,
 				4539AC711D51368500D0ADE3 /* NSBundle+FileKit.swift in Sources */,
 				4539ACD81D5142BD00D0ADE3 /* Matrix.swift in Sources */,
+				4539AD8B1D51914500D0ADE3 /* Reachability.swift in Sources */,
 				4539AC621D51368500D0ADE3 /* DictionaryFile.swift in Sources */,
 				4539AC741D51368500D0ADE3 /* NSString+FileKit.swift in Sources */,
 				4539AC6D1D51368500D0ADE3 /* FileType.swift in Sources */,
@@ -615,6 +643,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SwiftCommon/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -633,6 +665,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SwiftCommon/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

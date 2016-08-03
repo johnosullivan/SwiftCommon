@@ -27,8 +27,6 @@ class DetailViewController: UIViewController {
     }
     func configureView() {
         
-        
-        
         let now = NSDate()
         let nowMoment = getLocalEnglishMoment(now)
         print(nowMoment.description)
