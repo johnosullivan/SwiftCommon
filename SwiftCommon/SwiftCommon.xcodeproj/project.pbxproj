@@ -57,6 +57,16 @@
 		4539AC781D51368500D0ADE3 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5D1D51368500D0ADE3 /* RelativePathType.swift */; };
 		4539AC791D51368500D0ADE3 /* String+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC5E1D51368500D0ADE3 /* String+FileKit.swift */; };
 		4539AC7B1D51368D00D0ADE3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AC7A1D51368D00D0ADE3 /* SwiftyJSON.swift */; };
+		4539ACD21D5142BD00D0ADE3 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACC81D5142BD00D0ADE3 /* Arithmetic.swift */; };
+		4539ACD31D5142BD00D0ADE3 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACC91D5142BD00D0ADE3 /* Auxiliary.swift */; };
+		4539ACD41D5142BD00D0ADE3 /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCA1D5142BD00D0ADE3 /* Convolution.swift */; };
+		4539ACD51D5142BD00D0ADE3 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCB1D5142BD00D0ADE3 /* Exponential.swift */; };
+		4539ACD61D5142BD00D0ADE3 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCC1D5142BD00D0ADE3 /* FFT.swift */; };
+		4539ACD71D5142BD00D0ADE3 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCD1D5142BD00D0ADE3 /* Hyperbolic.swift */; };
+		4539ACD81D5142BD00D0ADE3 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCE1D5142BD00D0ADE3 /* Matrix.swift */; };
+		4539ACD91D5142BD00D0ADE3 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACCF1D5142BD00D0ADE3 /* Power.swift */; };
+		4539ACDB1D5142BD00D0ADE3 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACD11D5142BD00D0ADE3 /* Trigonometric.swift */; };
+		4539AD431D5183F300D0ADE3 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539AD421D5183F300D0ADE3 /* SwiftNotice.swift */; };
 		456F33C51D51228D003BBD95 /* MomentFromNow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */; };
 		45AFB8191D50FD250059BFEC /* SwiftCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AFB8181D50FD250059BFEC /* SwiftCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45AFB8201D50FD250059BFEC /* SwiftCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFB8151D50FD250059BFEC /* SwiftCommon.framework */; };
@@ -124,6 +134,16 @@
 		4539AC5D1D51368500D0ADE3 /* RelativePathType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelativePathType.swift; path = File/RelativePathType.swift; sourceTree = "<group>"; };
 		4539AC5E1D51368500D0ADE3 /* String+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+FileKit.swift"; path = "File/String+FileKit.swift"; sourceTree = "<group>"; };
 		4539AC7A1D51368D00D0ADE3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = JSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		4539ACC81D5142BD00D0ADE3 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = MathHelp/Arithmetic.swift; sourceTree = "<group>"; };
+		4539ACC91D5142BD00D0ADE3 /* Auxiliary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = MathHelp/Auxiliary.swift; sourceTree = "<group>"; };
+		4539ACCA1D5142BD00D0ADE3 /* Convolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Convolution.swift; path = MathHelp/Convolution.swift; sourceTree = "<group>"; };
+		4539ACCB1D5142BD00D0ADE3 /* Exponential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = MathHelp/Exponential.swift; sourceTree = "<group>"; };
+		4539ACCC1D5142BD00D0ADE3 /* FFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = MathHelp/FFT.swift; sourceTree = "<group>"; };
+		4539ACCD1D5142BD00D0ADE3 /* Hyperbolic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = MathHelp/Hyperbolic.swift; sourceTree = "<group>"; };
+		4539ACCE1D5142BD00D0ADE3 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = MathHelp/Matrix.swift; sourceTree = "<group>"; };
+		4539ACCF1D5142BD00D0ADE3 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Power.swift; path = MathHelp/Power.swift; sourceTree = "<group>"; };
+		4539ACD11D5142BD00D0ADE3 /* Trigonometric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = MathHelp/Trigonometric.swift; sourceTree = "<group>"; };
+		4539AD421D5183F300D0ADE3 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotice.swift; path = "../../../../Downloads/SwiftNotice-master/SwiftNotice.swift"; sourceTree = "<group>"; };
 		456F33BD1D51228D003BBD95 /* MomentFromNow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = "../../../../Downloads/SwiftMoment-master/SwiftMoment/SwiftMoment/MomentFromNow.bundle"; sourceTree = "<group>"; };
 		45AFB8151D50FD250059BFEC /* SwiftCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFB8181D50FD250059BFEC /* SwiftCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCommon.h; sourceTree = "<group>"; };
@@ -222,6 +242,37 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		4539ACC71D5142AE00D0ADE3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				4539ACC81D5142BD00D0ADE3 /* Arithmetic.swift */,
+				4539ACC91D5142BD00D0ADE3 /* Auxiliary.swift */,
+				4539ACCA1D5142BD00D0ADE3 /* Convolution.swift */,
+				4539ACCB1D5142BD00D0ADE3 /* Exponential.swift */,
+				4539ACCC1D5142BD00D0ADE3 /* FFT.swift */,
+				4539ACCD1D5142BD00D0ADE3 /* Hyperbolic.swift */,
+				4539ACCE1D5142BD00D0ADE3 /* Matrix.swift */,
+				4539ACCF1D5142BD00D0ADE3 /* Power.swift */,
+				4539ACD11D5142BD00D0ADE3 /* Trigonometric.swift */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		4539AD411D5183D700D0ADE3 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				4539AD421D5183F300D0ADE3 /* SwiftNotice.swift */,
+			);
+			name = Notice;
+			sourceTree = "<group>";
+		};
+		4539AD441D51858E00D0ADE3 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
 		456F33B71D50FFFA003BBD95 /* Moment */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +303,9 @@
 		45AFB8171D50FD250059BFEC /* SwiftCommon */ = {
 			isa = PBXGroup;
 			children = (
+				4539AD441D51858E00D0ADE3 /* AddressBook */,
+				4539AD411D5183D700D0ADE3 /* Notice */,
+				4539ACC71D5142AE00D0ADE3 /* Math */,
 				4539AC3F1D5135E300D0ADE3 /* JSON */,
 				4539AC141D51346800D0ADE3 /* DataStructure */,
 				4539ABD91D5132E700D0ADE3 /* FileIO */,
@@ -382,10 +436,14 @@
 			files = (
 				4539AC371D5134C600D0ADE3 /* Edge.swift in Sources */,
 				4539AC791D51368500D0ADE3 /* String+FileKit.swift in Sources */,
+				4539ACDB1D5142BD00D0ADE3 /* Trigonometric.swift in Sources */,
+				4539AD431D5183F300D0ADE3 /* SwiftNotice.swift in Sources */,
 				4539AC6A1D51368500D0ADE3 /* FileSystemEvent.swift in Sources */,
+				4539ACD91D5142BD00D0ADE3 /* Power.swift in Sources */,
 				4539AC211D5134B400D0ADE3 /* EnumModel.swift in Sources */,
 				4539AC221D5134B400D0ADE3 /* Graph.swift in Sources */,
 				4539AC731D51368500D0ADE3 /* NSDictionary+FileKit.swift in Sources */,
+				4539ACD31D5142BD00D0ADE3 /* Auxiliary.swift in Sources */,
 				4539AC771D51368500D0ADE3 /* Process+FileKit.swift in Sources */,
 				4539AC601D51368500D0ADE3 /* DataFile.swift in Sources */,
 				4539AC641D51368500D0ADE3 /* DispatchEvent.swift in Sources */,
@@ -393,6 +451,7 @@
 				4539AC351D5134C600D0ADE3 /* Algorithm.swift in Sources */,
 				4539AC241D5134B400D0ADE3 /* LinkedList.swift in Sources */,
 				4539AC711D51368500D0ADE3 /* NSBundle+FileKit.swift in Sources */,
+				4539ACD81D5142BD00D0ADE3 /* Matrix.swift in Sources */,
 				4539AC621D51368500D0ADE3 /* DictionaryFile.swift in Sources */,
 				4539AC741D51368500D0ADE3 /* NSString+FileKit.swift in Sources */,
 				4539AC6D1D51368500D0ADE3 /* FileType.swift in Sources */,
@@ -402,9 +461,12 @@
 				4539AC681D51368500D0ADE3 /* FilePermissions.swift in Sources */,
 				4539AC3D1D5134C600D0ADE3 /* TrieNode.swift in Sources */,
 				4539AC691D51368500D0ADE3 /* FileProtection.swift in Sources */,
+				4539ACD61D5142BD00D0ADE3 /* FFT.swift in Sources */,
 				4539AC431D51365E00D0ADE3 /* Moment.swift in Sources */,
 				4539AC721D51368500D0ADE3 /* NSData+FileKit.swift in Sources */,
+				4539ACD21D5142BD00D0ADE3 /* Arithmetic.swift in Sources */,
 				4539AC6C1D51368500D0ADE3 /* FileSystemWatcher.swift in Sources */,
+				4539ACD71D5142BD00D0ADE3 /* Hyperbolic.swift in Sources */,
 				4539AC5F1D51368500D0ADE3 /* ArrayFile.swift in Sources */,
 				4539AC761D51368500D0ADE3 /* Path.swift in Sources */,
 				4539AC3B1D5134C600D0ADE3 /* PathDS.swift in Sources */,
@@ -420,6 +482,8 @@
 				4539AC361D5134C600D0ADE3 /* AVLTree.swift in Sources */,
 				4539AC261D5134B400D0ADE3 /* PathHeap.swift in Sources */,
 				4539AC3C1D5134C600D0ADE3 /* QNode.swift in Sources */,
+				4539ACD41D5142BD00D0ADE3 /* Convolution.swift in Sources */,
+				4539ACD51D5142BD00D0ADE3 /* Exponential.swift in Sources */,
 				4539AC661D51368500D0ADE3 /* File.swift in Sources */,
 				4539AC6F1D51368500D0ADE3 /* ImageFile.swift in Sources */,
 				4539AC281D5134B400D0ADE3 /* Sorting.swift in Sources */,

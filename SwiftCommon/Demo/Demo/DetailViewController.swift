@@ -1,14 +1,12 @@
 //
 //  DetailViewController.swift
-//  SwiftCommonApp
+//  Demo
 //
 //  Created by John O'Sullivan on 8/2/16.
 //  Copyright © 2016 John O'Sullivan. All rights reserved.
 //
 
 import UIKit
-
-import SwiftCommon
 
 class DetailViewController: UIViewController {
 
@@ -21,17 +19,8 @@ class DetailViewController: UIViewController {
             self.configureView()
         }
     }
-    func getLocalEnglishMoment(date: NSDate) -> Moment {
-        return moment(date, timeZone: NSTimeZone.defaultTimeZone(),
-                      locale: NSLocale(localeIdentifier: "en"))
-    }
+
     func configureView() {
-        
-        
-        
-        let now = NSDate()
-        let nowMoment = getLocalEnglishMoment(now)
-        print(nowMoment.description)
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {

@@ -16,6 +16,7 @@
 		4539AC981D5136DD00D0ADE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4539AC961D5136DD00D0ADE3 /* LaunchScreen.storyboard */; };
 		4539ACA31D5136DE00D0ADE3 /* SwiftCommonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACA21D5136DE00D0ADE3 /* SwiftCommonAppTests.swift */; };
 		4539ACAE1D5136DE00D0ADE3 /* SwiftCommonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539ACAD1D5136DE00D0ADE3 /* SwiftCommonAppUITests.swift */; };
+		4539AD401D51813E00D0ADE3 /* SwiftCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4539AD3F1D51813E00D0ADE3 /* SwiftCommon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4539ACA91D5136DE00D0ADE3 /* SwiftCommonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4539ACAD1D5136DE00D0ADE3 /* SwiftCommonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCommonAppUITests.swift; sourceTree = "<group>"; };
 		4539ACAF1D5136DE00D0ADE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4539AD3F1D51813E00D0ADE3 /* SwiftCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCommon.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftCommon-enfndtbfubbepfhbyltuszfvnqhx/Build/Products/Debug-iphonesimulator/SwiftCommon.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4539AD401D51813E00D0ADE3 /* SwiftCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		4539AC7C1D5136DD00D0ADE3 = {
 			isa = PBXGroup;
 			children = (
+				4539AD3F1D51813E00D0ADE3 /* SwiftCommon.framework */,
 				4539AC871D5136DD00D0ADE3 /* SwiftCommonApp */,
 				4539ACA11D5136DE00D0ADE3 /* SwiftCommonAppTests */,
 				4539ACAC1D5136DE00D0ADE3 /* SwiftCommonAppUITests */,
@@ -490,6 +494,7 @@
 				4539ACB41D5136DE00D0ADE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4539ACB51D5136DE00D0ADE3 /* Build configuration list for PBXNativeTarget "SwiftCommonAppTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				4539ACB71D5136DE00D0ADE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4539ACB81D5136DE00D0ADE3 /* Build configuration list for PBXNativeTarget "SwiftCommonAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				4539ACBA1D5136DE00D0ADE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
