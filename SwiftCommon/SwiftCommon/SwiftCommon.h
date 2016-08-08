@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Accelerate/Accelerate.h>
+
 //! Project version number for SwiftCommon.
 FOUNDATION_EXPORT double SwiftCommonVersionNumber;
 

@@ -24,6 +24,11 @@ class SwiftCommonTests: XCTestCase {
         return moment(date, timeZone: NSTimeZone.defaultTimeZone(),
                       locale: NSLocale(localeIdentifier: "en"))
     }
+    
+    func testStack() {
+        
+    }
+    
     func testFromNowEnglish() {
         let now = NSDate()
         let nowMoment = getLocalEnglishMoment(now)
